@@ -31,6 +31,10 @@ This project predicts Apple stock prices using Time Series Forecasting and Deep 
 - RMSE
 - MAE
 
+## Model Comparison
+
+![Model Comparison](model_comparison.png)
+
 ## Results
 Compared multiple models to analyze forecasting accuracy and trend prediction.
 
