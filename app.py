@@ -20,7 +20,8 @@ This application predicts future stock prices using a trained model.
 
 st.header("📂 Load Dataset")
 
-df = pd.read_excel("Processed_Apple_Stock_Data.xls")
+df = pd.read_excel("Processed_Apple_Stock_Data.xls", engine="xlrd")
+
 # =========================================
 # DATA PREPARATION
 # =========================================
